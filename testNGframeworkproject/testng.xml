@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test" parallel="tests">
+  <parameter name="t1" value="chrome"></parameter>
+    <classes>
+      <class name="pack3.DeleteCustomerTC_04"/>
+      <class name="pack3.SubCreateCustomer"/>
+      <class name="pack3.TestScript3"/>
+      <class name="pack3.CreateProjectTC_03"/>
+      <class name="pack3.FinalDeleteCustomer"/>
+      <class name="pack3.SubLoginLogout"/>
+      <class name="pack3.TestScript2"/>
+      <class name="pack3.TestScript1"/>
+      <class name="pack3.LoginLogout"/>
+      <class name="pack3.CreateCustomerTC_02"/>
+      <class name="pack3.FinalCreateCustomer"/>
+      <class name="pack3.FinalLoginLogout"/>
+    </classes>
+  </test>
+   <test thread-count="5" name="Test1" parallel="tests">
+   <parameter name="t1" value="firefox"></parameter>
+    <classes>
+      <class name="pack3.DeleteCustomerTC_04"/>
+      <class name="pack3.SubCreateCustomer"/>
+      <class name="pack3.TestScript3"/>
+      <class name="pack3.CreateProjectTC_03"/>
+      <class name="pack3.FinalDeleteCustomer"/>
+      <class name="pack3.SubLoginLogout"/>
+      <class name="pack3.TestScript2"/>
+      <class name="pack3.TestScript1"/>
+      <class name="pack3.LoginLogout"/>
+      <class name="pack3.CreateCustomerTC_02"/>
+      <class name="pack3.FinalCreateCustomer"/>
+      <class name="pack3.FinalLoginLogout"/>
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->
